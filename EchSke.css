@@ -1,9 +1,33 @@
 /*CSS*/
 
+html{
+	font-family: Arial;
+}
+#Header{
+	font-size:3em;
+	padding:10%;
+	width:10em;
+	height:1.5em;
+	text-align: center;
+	
+	color:rgb(15%,75%,15%);
+
+	border-radius: 10% 0 10% 0;
+	box-shadow: 0 0 4em rgb(30%,85%,30%);
+	margin: 100px auto;
+	background-color: rgb(30%,85%,30%);
+}
+
+.button_Hover{
+	background-color: rgb(25%%,95%,25%);
+}
+
 .Tile{
-	height:5em;
-	width:5em;
-	background-color:blue;
+	background-color:red;
+}
+
+.off{
+	background-color: blue;
 }
 tr{
 	display: block;
@@ -12,7 +36,6 @@ tr{
 	margin: 0 auto;
 	text-align: center;
 	border-collapse: collapse;
-	border-spacing: 0;
 }
 .Input{
 	margin: 50px auto;
