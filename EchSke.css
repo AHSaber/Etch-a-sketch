@@ -3,8 +3,7 @@
 .Tile{
 	height:5em;
 	width:5em;
-	
-	background-color:black;
+	background-color:blue;
 }
 tr{
 	display: block;
@@ -12,7 +11,8 @@ tr{
 #Table{
 	margin: 0 auto;
 	text-align: center;
-	
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 .Input{
 	margin: 50px auto;
